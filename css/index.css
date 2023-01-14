@@ -1,5 +1,5 @@
 .container{
-    width: 100%;
+    width: 1440px;
 }
 body{
     background-color: #F2F2F2;
@@ -16,7 +16,7 @@ font-size: 3.75rem;
     content: "";
     height: 2px;
     position:absolute;
-    left:35%;
+    left:29%;
     width: 165px;
     top:50%;
     
@@ -27,7 +27,7 @@ font-size: 3.75rem;
     content: "";
     height: 2px;
     position:absolute;
-    right:35%;
+    right:29%;
     width: 165px;
     top:50%;
     
@@ -41,4 +41,34 @@ font-size: 3.75rem;
 }
 .white-backgroundcolor{
     background-color: #FFFFFF;
+}
+.h1-line-lastest{
+    text-align: center;
+    position: relative;
+}
+.h1-line-lastest::before{
+    display: block;
+    content: "";
+    height: 2px;
+    position:absolute;
+    left:28%;
+    width: 165px;
+    top:50%;
+    
+    background: #D9D9D9;
+}
+.h1-line-lastest::after{
+    display: block;
+    content: "";
+    height: 2px;
+    position:absolute;
+    right:28%;
+    width: 165px;
+    top:50%;
+    
+    background: #D9D9D9;
+}
+ul{
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
 }
