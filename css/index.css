@@ -112,3 +112,34 @@ input[type=checkbox]{
     background: transparent;
 
 }
+
+.Alert-box{
+width: 70%;
+height: 3rem;
+display: flex;
+justify-content: space-between;
+background-color: rgb(171, 170, 170);
+position:absolute;
+top:-80%;
+border-radius: 5px;
+ overflow: hidden;
+ transition:all 2s ease;
+ align-items: center;
+ 
+}
+.Alert-box p{
+    color: red;
+}
+.procces{
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    background-color: #ffffff;
+    height: 0.5rem;
+}
+.multi-procces{
+    width: 0%;
+    background-color: aqua;
+    height: 100%;
+    transition: all 6s ease;
+}

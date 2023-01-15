@@ -8,6 +8,15 @@
     <title>Login</title>
 </head>
 <body class="container d-flex justify-content-center align-items-center " style="background-color: #DADADA; height: 100vh;">
+    <div id="alert" class="Alert-box">
+        
+            <p style="margin-left: 10px;"><b>you should fill out your username</b></p>
+            <button style="margin-bottom: 10px; margin-right: 10px; border: none; background-color: transparent;">x</button>
+            <div class="procces">
+                <div class="multi-procces"></div>
+            </div>
+        
+    </div>
     <div class="row white-backgroundcolor " style="width: 976px;">
 
         <div class="col-md-6 col-lg-6  ">
@@ -27,13 +36,13 @@
 
 <div>
     <form class="d-flex flex-column " >
-        <input class="form-placeholder" style="margin-bottom: 14px; width: 391px; height: 63px; align-items: center; margin-left: 48px; border: 1px solid #d9d9d9; border-radius: 5px;" type="text" placeholder="Username" required>
-        <input  class="form-placeholder" style="margin-bottom: 23px; width: 391px; height: 63px; margin-left: 48px; border: 1px solid #d9d9d9; border-radius: 5px;"type="text" placeholder="Password" required>
+        <input id="username-login" class="form-placeholder" style="margin-bottom: 14px; width: 391px; height: 63px; align-items: center; margin-left: 48px; border: 1px solid #d9d9d9; border-radius: 5px;" type="text" placeholder="Username" required>
+        <input id="password-login"  class="form-placeholder" style="margin-bottom: 23px; width: 391px; height: 63px; margin-left: 48px; border: 1px solid #d9d9d9; border-radius: 5px;"type="Password" placeholder="Password" required>
         <div style="margin-bottom: 66px;margin-left: 48px;">
         <input type="checkbox" class="Checkbox"checked >
         <label class="font-size" style="color:#838383;">Remmebr me</label>
     </div>
-        <input style="color:#ffffff; background-color:#FF8F52; border: none; border-radius: 5px; width: 391px; height: 57px;margin-left: 48px;"type="submit" value="Login">
+        <input id="submit" style="color:#ffffff; background-color:#FF8F52; border: none; border-radius: 5px; width: 391px; height: 57px;margin-left: 48px;"type="submit" value="Login">
 
     </form>
 </div>
@@ -48,5 +57,6 @@
         </div>
 
     </div>
+    <script src="/js/index.js"></script>
 </body>
 </html>
